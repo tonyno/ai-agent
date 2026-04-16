@@ -1,0 +1,64 @@
+I would like you to help me compose initial content to https://oakslab.getoutline.com/collection/oaks-lab-eDPUjDbhSB/recent for further discussion with my collegues in DMT (Digital Management Team). For now it is just discussion, thoughts, it is not yet approved methodology and next steps. It covers various activities. 
+
+I want you to have a deep conversation with me just to make sure that the basic questions are covered in the document. 
+
+We will actually cover multiple activities, and here I am just dumping my thoughts on what I want you to put into a structured format.
+1. Using the get outline. For context, we were earlier using Confluence, and we are now seriously thinking about migrating to Outline because it natively works with the MD files, which work great for the AI. The first thought is how to set up the structure in Outline. The idea is that we will use the collection for every project, and we will have a few collections for cross-project activities, for example business development or people and so on.
+2. We will migrate from Confluence only the living documents or living spaces. Whenever we have some legacy project that we do not continue working on, the documentation will still be in Confluence. We will also decommission Confluence for the majority of the people, and we will use Confluence access only for people who still need access to the legacy projects, just to keep the data there. Let's say 90% of the people will be removed from Confluence, and everything that is still living as documents will be migrated to Outline.
+
+I have a Google Sheet table with a list of the projects and an identification of what we want to migrate or not. This link I will put as a part of this document. I am thinking about what else needs to be clarified for that migration of the outline, so please ask me the questions.
+We should cover how we will work with permissions. We will work in a way that all the people in Oaks Lab will be created as editors in Outline. Whenever we create a new space in Outline, we will set up no access, and then we will have a group called Oaks Lab where we will put all the members in Oaks Lab. This group will have read permission to every project space in Outline. We will create two groups for every project:
+- One group will be for Oaks Lab members on that project, who will get read and write permission, or maybe even manage permission, to that space.
+- We will create a group for the client members who will get access, probably not to the whole space, the whole collection of the project, but only to selected folders.
+We should also define the same structure for the files in every collection of every project. Let's say propose something as a fixed structure:
+- There should be a four-page page that is describing the project.
+- There should be a folder for meetings.
+- There should be some basic folders for engineering, product, work, design, and QA.
+
+
+The reason why we are doing this, everything around outline, is to be effective using the AI. For AI, we should please create the separate outline document with the structured information about the thought that we will discuss together.
+One thought is that, working on the project, it will store all the materials, not as MD files as a part of the Github repo, but actually it will store that information directly using the MCP in outline. Every project will be using the MCP to actually obtain and update the information from outline, so outline will be kind of the repository for the MD files. This is bringing a lot of benefits, for example:
+- it supports commands and incorporating the commands
+- it has the visual representation of the MD file
+- the stakeholders can be invited and they can work with that in an individual way and share their comments
+- AI can incorporate those commands just based on one prompt
+It's much smoother than actually using that in the MD files directly in the Github repo.
+
+Whenever we work with AI, AI mainly needs information and context. As we are working fully remote for our clients, we are not meeting with our clients in person, but everything is happening through Google Meet meetings mainly, or in some cases Microsoft Teams or Zoom. That means that it's much easier for us to capture the content in Google, because we are using two different solutions:
+- When we have a meeting on Google Meet, we can record that meeting using Gemini with the Gemini transcript.
+- When we have a meeting on Zoom or Microsoft Teams, we are using a tool called Granola that can create the transcript.
+We should definitely, as a digital management team, set up some rules for how to work with meetings. I would suggest that we have a rule that, whenever the meeting is happening on Google Meet, it is highly recommended/required to run the transcript of that meeting, and ideally set up this for running the transcript by default. For example, if there is a scheduled regular meeting like a stand-up, these regular occurrences should be set up directly in the invite so that the transcript runs automatically. This should be our main solution for making sure that from all the meetings we are getting the transcripts.
+As an alternative, we will use Granola. In Granola, we will create two shared folders for every project:
+1. One will be for the whole team and all the meetings with the stakeholder.
+2. The second folder will be for management stuff, when we are, for example, discussing the performance of people and so on. This data is not shared with the wider group.
+As I said earlier, Google Gemini will be the preferred way. The main reason is that first, Google Gemini is already part of our Google suite, so we do not need to pay additional licenses. Second, as it is connected directly to the meeting, Google knows who is saying what on that meeting, so on that transcript it is saying who said something, which is, of course, very important for understanding who decided what and specifically if it was coming from Oaks Lab or if it was coming from the client.
+
+
+So all that information above is, in the end, in the aggregation, like saying that we have all the projects; we have all of them in Outline. They have a defined structure, and one of that structure is a folder for the meetings where we would like to have all the transcripts from the meetings.
+Here is the big question: how the transcripts get there? Actually, we have probably two options:
+1. One option is that every PM will be responsible for running some script that will process the transcripts from Granola or Gemini and put them in that folder in Outline.
+2. There will be some technical account in Oaks Lab, for example transcript@oakslab.com, who will be invited to all the meetings. As this technical account will be invited to all the meetings, that account will have access to the transcript, for example from Gemini. That script will be running automatically every day to process those meetings and put them in the proper collections in Outline and in the proper folder with the meetings.
+This script already exists. I will link it in the generated document where we have the source code for that. It's written in TypeScript. What is a potential challenge is that non-technical people might not be able to run it and also configure it.
+
+
+Now let's speak a little bit about AI. With AI, we are facing the challenge that every project is approached slightly differently, and there is a lack of the ability to share the knowledge across the projects. For that, we are trying to come up with some solution. It's not only about sharing the knowledge across the projects, but it's also about sharing the knowledge, like the way of using the AI, across the people in the digital management team.
+
+For example, a nice example is that every member of the digital management team needs to have context for every project. In fact, that means that, if there exists an artifact called a four that is describing the project, that four document for every project needs to be handy and available for every digital management team member. That's a question we need to resolve: how to actually make this happen. That applies to multiple things, because, for example, very likely there should be some MD file that is explaining what is our business, what we are doing, or there should be an MD file maybe for every role in our company. When anyone in the digital management team or maybe in any project is working on something, the AI correctly understands the context and understands, for example, what is exactly expected from that role, or what is that project about, or what is the focus and so on.
+
+We need to come up with some solution that is aggregating the information from the projects to one place. If everything is in an outline, maybe it's just about some defined structure that the AI understands and always knows where to look. If we were still working in the GitHub and with the MD files, that would actually mean the need for maybe using some git submodules or git modules or something like that that would aggregate the information from different places to one place. The situation where we still will need something like git modules or submodules or something like that is for the ability to share the skills across the projects and also Claude configuration, for example, whitelisting the commands that will be defined or shared from one place. Not everyone will need to reinvent the wheel and do it again just for himself. 
+
+
+Yeah, and now I wonder what should be next if you have any questions or anything. We should probably discuss what documents exactly to generate in the outline. Documenting this, I want to do it super simple, super lean, and minimalistic, probably using bullet points rather than long sentences. Whenever it's feasible to create some diagram in mermaid or use the preformatted text, maybe with some structure and so on, it would be better than a long text.
+
+What should be the starting point is really defining and aligning on the same structure in the outline. At least, for every project, it should create an A4 documenting what the project is about and so on. I will also share with you the A4 so you know what that structure is right now, and you can even propose what is missing in my thoughts. Example of A4: https://oakslab.getoutline.com/doc/olh-intake-a4-L48muXmhnf
+
+Also, one important thing is that every project works in its isolation. If every project has its own collection in the outline with all the meetings, then everything is straightforward and I think it can work well.
+What may be even more challenging is in the digital management team. First, because that team is aggregating or collecting the information from multiple projects, but also because the digital management team works with maybe less structured data than the data just on the project and also with more sensitive data and personal data. A nice example is that every digital management team member is having one-to-one with key people in the company, and these one-to-ones should definitely not be shared anywhere. That means that the digital management team member needs to work with two types of information:
+- things that are kind of public in the outline
+- their own personal nodes and personal stuff
+Because the digital management team member is working with two types of information, that also means that his outputs using his AI cannot be widely shared, because it's taking into account some private information. We need to come up with some solution where there are probably three types of information:
+- information from projects that are available for everyone
+- digital management team information that is available for everyone in the digital management team
+- private information that everyone holds on their side
+We need to somehow aggregate all this information for every digital management team member in one place. That will be, for example, maybe Claude Code, where all that analytical product work will be used, but let's say 70 or 80% of that work in the Code should be unified and the same, using the same inputs and the same principles and so on. Everyone will have just slight differences based on how he wants to use the AI and how he works with people and so on.
+We need to come up with some solution how let's say 80% of these principles are the same but 20% can be different. That means that it's a question where this data is stored, if it's in GitHub or it's maybe in some personal folder in the outline, or it's just on the local machine and so on. That's definitely one topic worth investigating and maybe discussing with you how to solve that.
