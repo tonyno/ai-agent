@@ -17,7 +17,9 @@ Also parse the existing per-collection document tables to get current document I
 
 ### 2. Pull documents for each collection
 
-For each tracked collection, call `mcp__claude_ai_GetOutline__list_documents` with the collection ID and `limit: 100`.
+**Skip frozen collections:** If a collection is marked as `frozen: true` in the Tracked Collections table, skip it entirely — do not pull, process, or update its section in the index. Preserve its existing section as-is.
+
+For each non-frozen tracked collection, call `mcp__claude_ai_GetOutline__list_documents` with the collection ID and `limit: 100`.
 
 If the result is too large (overflows to a file), use a subagent to parse the JSON and extract: document title, ID, revision, parentDocumentId, and language.
 
@@ -68,6 +70,7 @@ After regenerating, report to the user:
 
 - **Never cache document content locally** — only titles, IDs, revisions, and summaries
 - **Preserve the Tracked Collections table** — the user manages it manually
+- **Skip frozen collections** — collections marked `frozen: true` are never pulled or updated
 - **Use parallel MCP calls** where possible (e.g., fetch multiple collections simultaneously)
 - **If MCP fails for a collection**, report the error but continue with other collections
 - **Full document IDs** in the index — no truncation (they're needed for MCP fetch calls)

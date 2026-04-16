@@ -5,10 +5,10 @@
 
 ## Tracked Collections
 
-| Collection | Collection ID | URL | Purpose |
-|---|---|---|---|
-| OAK'S LAB | `ed48f77b-51de-405d-bf34-a4baedf5bda1` | https://oakslab.getoutline.com/collection/oaks-lab-eDPUjDbhSB | Company-wide DMT topics, AI-first operations |
-| The OAK'S LAB WAY | `bcc3903f-82d2-4e2a-a7ba-48a7d454d200` | https://oakslab.getoutline.com/collection/the-oaks-lab-way-jYXeZKKxiP | Product development methodology |
+| Collection | Collection ID | URL | Purpose | Frozen |
+|---|---|---|---|---|
+| OAK'S LAB | `ed48f77b-51de-405d-bf34-a4baedf5bda1` | https://oakslab.getoutline.com/collection/oaks-lab-eDPUjDbhSB | Company-wide DMT topics, AI-first operations | |
+| The OAK'S LAB WAY | `bcc3903f-82d2-4e2a-a7ba-48a7d454d200` | https://oakslab.getoutline.com/collection/the-oaks-lab-way-jYXeZKKxiP | Product development methodology | frozen: true |
 
 ---
 

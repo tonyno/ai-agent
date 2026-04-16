@@ -8,7 +8,7 @@
 
 SKILL.md files use YAML frontmatter (`---\nname: ...\ndescription: ...\n---`) that Claude Code requires to recognize skills. Outline's markdown renderer interprets `---` as horizontal rules and mangles the YAML into heading text. This makes round-trip sharing (push to Outline → pull from Outline) destructive — pulled skills are broken.
 
-The original `/oaks-skills-sync` skill tried to use Outline for both browsing and distribution. That approach is fundamentally incompatible with YAML frontmatter preservation.
+The original approach tried to use Outline for both browsing and distribution. That approach is fundamentally incompatible with YAML frontmatter preservation.
 
 ## Solution
 
@@ -318,14 +318,6 @@ oakslab/claude-skills-library/
 - Changes to common skills go through PR review
 
 ---
-
-## Migration from `/oaks-skills-sync`
-
-1. Build and test both new skills in this repo (`dmt-tonda`)
-2. Push them to the shared git repo
-3. Replace `oaks-skills-sync` with the two new skills on pilot projects
-4. Update Outline documentation (AI Skills Library, AI Knowledge Architecture)
-5. Retire `oaks-skills-sync`
 
 ---
 

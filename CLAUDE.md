@@ -145,6 +145,7 @@ Local file `outline-index.md` is an index of tracked collections and their docum
 - To refresh the index: run `/pull-outline-index`
 - To track a new collection: add it to the Tracked Collections table in `outline-index.md`, then run `/pull-outline-index`
 - To fetch a document: use `mcp__claude_ai_GetOutline__fetch` with the document ID from the index
+- **Never modify The OAK'S LAB WAY collection** — it is static, finalized methodology content. Do not update, create, or delete documents in that collection from this repo. Its index section is frozen and should not be re-pulled.
 
 ## Role Context
 

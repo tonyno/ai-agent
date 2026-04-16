@@ -1,3 +1,6 @@
+My colleagues shared following feedback. The feedback is coming from Andy, who is the COO, and also from Denisa, who is head of the design:
+
+
 andy  [11:35 AM]
 I don't know what to say other than this is outstanding. This is a pretty clear vision which incorporates everything we've been moving towards over the last few months. I love it!
 
@@ -30,3 +33,8 @@ image.png denisa  [12:51 PM]
 I had a skill which was scheduled to run daily, but it also could be run on demand if earlier processing was neeeded
 It checked the meeting transcript for potentially sensitive information that should not be uploaded to shared repo (people topic) and asked if it was not sure
 It checked the target folder for duplicities in case someone else had done the sync already on theirs
+
+
+
+-------------
+
