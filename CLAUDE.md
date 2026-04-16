@@ -133,6 +133,19 @@ Measures current and future project success against OAK'S LAB WAY standards. 20 
 
 Measured prior to each product sync by the product's leadership team.
 
+## Outline Integration
+
+This workspace uses Outline as the source of truth for all documentation.
+Local file `outline-index.md` is an index of tracked collections and their documents.
+
+**Rules:**
+- Always read `outline-index.md` at the start of a conversation to know what's available in Outline
+- Content always comes from Outline via MCP — never cache document content locally
+- Use the index summaries to decide which documents to fetch for the current task
+- To refresh the index: run `/pull-outline-index`
+- To track a new collection: add it to the Tracked Collections table in `outline-index.md`, then run `/pull-outline-index`
+- To fetch a document: use `mcp__claude_ai_GetOutline__fetch` with the document ID from the index
+
 ## Role Context
 
 **Tonda Kmoch** - Delivery lead and member of the Digital Management Team (DMT). This workspace supports brainstorming, planning, and execution of DMT responsibilities including delivery management, process improvement, methodology oversight, and team coordination. DMT members review and approve Foundation Phase milestones on projects.
