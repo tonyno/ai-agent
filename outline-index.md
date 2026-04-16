@@ -1,6 +1,6 @@
 # Outline Index
 
-> **Last pulled:** 2026-04-16T12:00:00
+> **Last pulled:** 2026-04-16T13:35:00
 > **Pull method:** /pull-outline-index skill via MCP (GetOutline)
 
 ## Tracked Collections
@@ -14,24 +14,25 @@
 
 ## Collection: OAK'S LAB
 
-> 8 documents | Last pulled: 2026-04-16T12:00:00
+> 9 documents | Last pulled: 2026-04-16T13:35:00
 
 | Document | ID | Rev | Summary |
 |---|---|---|---|
-| DMT Vision: AI-First Operations | `f2f045c4-748a-489c-b584-81f998fa6816` | 4 | Strategic framing document for DMT alignment. Covers: why AI-first now, the shift from human-centric to AI-first workflows, OAK'S LAB WAY evolution from documentation to executable AI skills, three operational pillars (Outline as knowledge hub, Meeting Intelligence, AI Knowledge Architecture). Includes before/after workflow diagrams and discussion questions. |
-| Outline: Structure, Permissions & Migration | `645dfe78-f260-4b7b-8bf5-d93f9433b22f` | 4 | Operational plan for Outline setup and Confluence migration. Covers: collection-per-project structure, standard folder template (A4/Meetings/Product/Engineering/Design/QA/Management), three-tier permission model (Oaks Lab read, project team write, client selected-folder access), group naming conventions, Confluence migration principles (living docs only), per-project migration checklist, priority tiers (P1-P3). |
+| DMT Vision: AI-First Operations | `f2f045c4-748a-489c-b584-81f998fa6816` | 7 | Strategic framing document for DMT alignment. Covers: why AI-first now, the shift from human-centric to AI-first workflows, OAK'S LAB WAY evolution from documentation to executable AI skills, three operational pillars (Outline as knowledge hub, Meeting Intelligence, AI Knowledge Architecture). Includes mermaid diagrams and DMT discussion questions. |
+| AI Knowledge Architecture | `1dc37990-3f0b-40d7-962a-aa13d573403f` | 7 | Information architecture for AI across projects and DMT. Covers: three information tiers (project-public in Outline, DMT-shared in restricted collection, private on local machine), MCP+Outline as knowledge layer vs MD-in-GitHub comparison, approved approach: AI Skills Library with /oaks-skills-sync, artifact inventory (10 items with priority), ownership matrix assigning domains to DMT members, OAK'S LAB WAY-to-skills transformation roadmap with prioritized activity-to-skill candidates. |
 | Meeting Intelligence Pipeline | `e8ac76b0-c3a2-4c0b-9713-4b20d5c949db` | 4 | Transcript capture and automated processing pipeline. Covers: Gemini (preferred, speaker attribution, no extra cost) vs Granola transcript sources, mandatory meeting rules (auto-transcript for recurring, manual start for ad-hoc), Granola folder structure per project (team vs management), recommended technical account approach (transcript@oakslab.com, daily automated script), script repo link (oakslab/aisg), capability gaps table, PM-manual fallback. |
-| AI Knowledge Architecture | `1dc37990-3f0b-40d7-962a-aa13d573403f` | 6 | Information structure for AI across projects and DMT. Covers: three information tiers (project-public in Outline, DMT-shared in restricted collection, private on local machine), MCP+Outline vs MD-in-GitHub comparison, **approved approach: AI Skills Library** (replaced options A/B/C with concrete solution — links to How It Works doc), artifact inventory (10 items with priority), ownership matrix assigning domains to Andy/Tonda/Krystof/Matej/Denisa/Honza, OAK'S LAB WAY-to-skills transformation roadmap. |
-| AI Skills Library | `4bc544a3-9f7f-4af7-add5-f2b4e29a481b` | 3 | Parent document for the shared AI skill library. Contains project folders (auto-populated by /oaks-skills-sync) and the common folder with DMT-maintained default skills. |
-| AI Skills Library > How It Works | `78fb8dd8-aed6-4d52-9ead-26e9ba8640a1` | 2 | Full documentation of the AI Skills Library approach. Covers: what it is, the /oaks-skills-sync command (push project config to Outline + pull common skills + self-update), Outline folder structure (flat by project + common), push/pull directions, README auto-generation from template, getting started guide for project teams, permissions model, common folder contents, phased rollout plan, FAQ. |
-| AI Skills Library > common | `8643fbbc-4869-412d-8f84-c145a8f1cefc` | 3 | Common folder containing DMT-maintained default skills shared across all projects. Contains skills/ subfolder with oaks-skills-sync (bootstrap skill) and oaks-skills-sync-readme-template. |
-| AI Skills Library > common > skills > oaks-skills-sync | `4547cdd8-12de-4e2c-9481-2f554a38a3af` | 2 | The bootstrap skill itself. Full instructions for Claude Code: identify project from git remote, self-update from Outline, push .claude/ to Outline (excluding common/memory/plans/projects), generate project README using template, pull common skills to .claude/skills/common/. |
+| Outline: Structure, Permissions & Migration | `645dfe78-f260-4b7b-8bf5-d93f9433b22f` | 6 | Operational plan for Outline setup and Confluence migration. Covers: collection-per-project structure, standard folder template (Project Brief/Meetings/Product/Engineering/Design/QA/Management), three-tier permission model (Oaks Lab read, project team write, client selected-folder access), group naming conventions, migration principles (living docs only), per-project migration checklist with priority tiers (P1-P3). Includes screenshots of correct permission setup. |
+| AI Skills Library | `4bc544a3-9f7f-4af7-add5-f2b4e29a481b` | 8 | Parent document for the shared AI skill library. Documents the directory-based skill format (skill-name/SKILL.md + README.md), per-skill README generation, /oaks-skills-sync command (push/pull/self-update), Outline folder structure, getting started guide, permissions model, common folder contents, phased rollout plan, FAQ including migration from flat files. |
+| AI Skills Library > common | `8643fbbc-4869-412d-8f84-c145a8f1cefc` | 4 | Container folder for DMT-maintained default skills shared across all projects. Contains skills/ subfolder. |
+| AI Skills Library > common > skills | `2120a10c-6072-4812-b097-5a2c1113050d` | 3 | Index of common skills. Documents the directory-based skill format (SKILL.md + README.md + optional supporting files) and lists available common skills: oaks-skills-sync and pull-outline-index. |
+| AI Skills Library > common > skills > oaks-skills-sync | `8713dee5-4f3a-4f12-985e-256cc96ab78e` | 3 | The bootstrap/sync skill. Full SKILL.md content and per-skill README template. Instructions for Claude Code: identify project from git remote, self-update from Outline, push .claude/ to Outline (excluding common/memory/plans/projects/README.md/templates), generate per-skill READMEs using template, pull common skills to .claude/skills/common/[name]/SKILL.md. |
+| AI Skills Library > common > skills > pull-outline-index | `208db451-d2fb-4cd2-b077-f026b00a71ac` | 3 | Skill for regenerating local outline-index.md from Outline via MCP. Instructions: read tracked collections, pull doc metadata, generate summaries for new/updated docs (reuse unchanged summaries), preserve user-configured tracking table, report changes. |
 
 ---
 
 ## Collection: The OAK'S LAB WAY
 
-> 100+ documents (14 indexed, ~86 sub-documents) | Last pulled: 2026-04-16T11:15:00
+> 200+ documents (14 indexed, ~186 sub-documents) | Last pulled: 2026-04-16T13:35:00
 
 ### Top-Level Documents
 
@@ -62,5 +63,5 @@
 | Product Design | `61e1a652-e803-42b6-939f-af607b8ec616` | 1 | Design activities spanning discovery and delivery phases. Covers branding, visual direction, product discovery design, and delivery design work. |
 | Delivery | `09350670-f48c-4e78-9be0-db588baaee7e` | 1 | All activities for developing, testing, and releasing software. Children include: development standards, code quality, code review, PRs, branching model, CI/CD, release model, testing (unit, integration, E2E, regression), DevOps, security, cloud configuration, compliance. |
 
-> **~86 sub-documents** exist under Activities, Roles & Responsibilities, Tools, and How it Works.
+> **~186 sub-documents** exist under Activities, Roles & Responsibilities, Tools, and How it Works.
 > Use MCP `list_documents` with collectionId `bcc3903f-82d2-4e2a-a7ba-48a7d454d200` to browse the full list.
