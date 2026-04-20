@@ -48,8 +48,9 @@ For each skill folder that does NOT have a `README.md`:
 
 1. Read the skill's `SKILL.md`
 2. Read the README template from `.claude/skills/oaks-outline-push/templates/skill-readme.md`
-3. Auto-generate a README by filling the template: extract name, description, steps summary, prerequisites, audience from the SKILL.md content
-4. Write it to the skill's folder as `README.md`
+3. Auto-generate a README by filling the **upper, AI-safe sections only**: name, description, usage, what it does (steps summary), prerequisites, how it connects, audience
+4. **Leave the human-only sections untouched** — the template ships with `TODO` placeholders under *When to use it / Why this skill exists / Impact / Tips & gotchas*. Never fill these from model inference; they must be authored by someone who has actually run the skill on a real project (per Andy's 2026-04-17 DMT feedback).
+5. Write it to the skill's folder as `README.md`
 
 If generation fails, write a placeholder:
 ```markdown
@@ -62,14 +63,17 @@ If `README.md` already exists, skip it.
 
 ### 5. Generate root `.claude/README.md` (if missing)
 
-If `.claude/README.md` does NOT exist, auto-generate a project signpost containing:
+If `.claude/README.md` does NOT exist, auto-generate a project signpost:
 
-- Project name (from git remote)
-- Brief description of the project's AI setup
-- **Table of all skills** with: name, description (from frontmatter or first paragraph)
-- **Table of all commands** (if any)
-- Notes about CLAUDE.md and settings.json presence
-- Any visible flow or sequence between skills
+1. Read the project README template from `.claude/skills/oaks-outline-push/templates/project-readme.md`
+2. Auto-fill the **upper, AI-safe sections**:
+   - Project name (from git remote) and a brief description of the project's AI setup
+   - `CLAUDE.md` and `settings.json` presence
+   - **Table of all skills** (name → link, description from frontmatter or first paragraph)
+   - **Table of all commands** (if any — omit the section otherwise)
+   - Any visible flow or sequence between skills, or "Skills are independent — run as needed."
+3. **Leave the human-only sections untouched** — *When this setup helps / Why this setup exists / Impact / Tips & gotchas* ship with `TODO`. Do not fill them from inference.
+4. Write the file to `.claude/README.md`.
 
 If `.claude/README.md` already exists, skip it — use as-is.
 
@@ -103,6 +107,7 @@ Tell the user:
 - Which README.md files were auto-generated (list them)
 - Whether root `.claude/README.md` was generated
 - Link to the project folder in Outline
+- **Documentation completeness check:** list every uploaded README (per-skill and root) that still contains a `TODO` in the human-only sections (*When / Why / Impact / Tips*). Flag them as **"not yet documented — human sections pending"**. Per Andy's 2026-04-17 DMT feedback, a skill only counts as documented once a person has filled those sections on a real project.
 
 ## Important Rules
 
@@ -113,3 +118,4 @@ Tell the user:
 - **Use `editMode: "replace"` for updates** — full replacement, not patching
 - **Derive project name from git remote** — don't ask the user
 - **Merge README + SKILL.md into one Outline document** — README first, separator, then SKILL.md
+- **Never auto-fill the human-only README sections** (*When / Why / Impact / Tips*) — leave `TODO` placeholders so a real user has to write them. Report them as pending in step 7.
