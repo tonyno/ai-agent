@@ -7,6 +7,7 @@ This project is used for DMT (Digital Management Team) brainstorming and deliver
 | Skill | Description | Status |
 |-------|-------------|--------|
 | [oaks-outline-push](skills/oaks-outline-push/) | One-way push of `.claude/` config to Outline AI Skills Library for human browsing | Active |
+| [outline-to-linear](skills/outline-to-linear/) | Turns the Next-steps section of an Outline meeting doc into Linear tickets in the team's current cycle, with links written back to Outline | Active |
 | [pull-outline-index](skills/pull-outline-index/) | Pulls document metadata from Outline collections to regenerate the local `outline-index.md` | Active |
 
 ## Typical Flow
