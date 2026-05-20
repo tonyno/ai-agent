@@ -110,7 +110,8 @@ For each item the user approved for creation, call `mcp__claude_ai_Linear__save_
   ```
 
 - `assigneeId` — the resolved Linear user ID, OR omitted if the user chose "unassigned"
-- No `labelIds`, no `priority`, no `stateId`, no `projectId`. Linear defaults for everything else.
+- `state: "Todo"` — always create tickets in the Todo state, not in the team's default initial state.
+- No `labelIds`, no `priority`, no `projectId`. Linear defaults for everything else.
 
 Collect each successful response's `identifier` (e.g., `AISG-123`) and `url`.
 
@@ -159,4 +160,4 @@ Print a final summary:
 - **No Linear writes before the approval gate.** Always render the table and wait for confirmation.
 - **One Outline write only.** All link-backs go in a single `update_document` call.
 - **Idempotent re-runs.** Trust the `already_linked` skip signal; do not try to dedupe by ticket title.
-- **Linear defaults for everything except** team, cycle, title, description, and assignee.
+- **Linear defaults for everything except** team, cycle, title, description, assignee, and state (always `Todo`).
