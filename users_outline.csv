@@ -1,0 +1,44 @@
+id,name,email,role,lastActiveAt,createdAt
+a49d1be4-da86-437d-a54a-52e3b1d5c024,Anastasiia Rudenko,anastasiia.rudenko@oakslab.com,member,2026-06-04T14:27:12.617Z,2026-05-19T12:09:51.418Z
+f7ac394b-41bc-404e-ad34-757677db61b9,Andy Powell,andy@oakslab.com,member,2026-06-04T12:45:23.937Z,2026-06-01T12:02:50.150Z
+42236701-2b40-48a3-a8ff-a7c7b55c8e7f,Anes Sinanoglu,anes@oakslab.com,member,2026-06-01T14:03:45.459Z,2026-06-01T14:03:45.428Z
+37d1c5bd-7b6c-4a63-b9b2-077f2e51ae54,Arpit Yadav,arpit@oakslab.com,member,2026-06-01T14:35:03.173Z,2026-06-01T14:07:03.700Z
+9341c87b-c5d0-4b5e-a739-9db64943a976,Barbora Stuchla,barbora.stuchla@oakslab.com,member,2026-06-01T14:35:05.027Z,2026-06-01T14:03:35.653Z
+83b4a382-4ef5-45cc-a4de-801b24787e67,Branka Lazic,branka@oakslab.com,member,2026-06-04T14:30:55.866Z,2026-06-02T06:59:13.384Z
+065d3cad-4f70-4caf-9575-0340e73ab161,Cristina Attina,cristina@oakslab.com,member,2026-06-02T08:22:45.124Z,2026-06-01T11:59:01.218Z
+ef47b973-471f-4bf6-b780-dd9efb8ba781,Denisa Lorencova,denisa@oakslab.com,member,2026-06-04T10:06:17.783Z,2026-05-20T09:20:46.916Z
+1abc1ff3-7b54-4ecb-8b59-69d46095e814,Dimitris Raptis,dimitris@oakslab.com,member,2026-06-01T14:35:48.902Z,2026-06-01T14:35:48.864Z
+6bbd7a54-12ad-41ad-a18f-de1f2573382c,Dusan Dimitric (Dimi),dusan@oakslab.com,member,2026-05-21T14:18:22.668Z,2026-05-20T11:25:30.063Z
+4e7715be-012a-4d28-b713-c2ba066bc3b2,Emmanuel Ihemegbulam,emmanuel@oakslab.com,member,2026-06-04T14:27:43.716Z,2026-06-01T13:18:07.294Z
+d2923066-623e-4037-a83a-3b0abb6c4744,Gabrielle Wildfeuer,gabrielle@oakslab.com,member,2026-06-02T12:46:06.787Z,2026-05-19T12:24:19.627Z
+bf1a6874-e1cf-406e-9bd4-56944793ae29,Jake Dluhy-Smith,jake@oakslab.com,member,2026-06-04T10:05:24.494Z,2026-05-20T08:41:03.972Z
+9a0e0460-eae8-4ac3-81a3-28bc12507ea4,Jakub Šlambora,jakub@oakslab.com,member,2026-06-02T07:00:13.361Z,2026-06-01T14:10:33.913Z
+e9bce237-5993-46fc-aa7b-6939579b56ff,Jan Barta,jan.barta@oakslab.com,admin,2026-06-04T09:48:03.030Z,2026-05-12T13:31:07.770Z
+45a4786e-9304-4add-84f4-b26c680d6a48,Johan Winberg,johan@oakslab.com,member,2026-06-03T10:52:38.946Z,2026-05-20T09:37:32.623Z
+d9852a28-3c26-48e7-9fea-f28a7369aef3,Josh Urban,josh@oakslab.com,member,2026-06-01T14:51:43.134Z,2026-06-01T14:51:43.105Z
+6faa9df2-a654-4293-a20c-84d93d7e1c1d,Kryštof Šraier,krystof@oakslab.com,member,2026-05-20T14:36:07.520Z,2026-05-20T14:36:07.478Z
+752edeaa-56c2-472e-b859-c4cd17f5df5f,Kseniia Marinich,kseniia@oakslab.com,member,2026-06-01T14:18:51.715Z,2026-06-01T14:18:51.688Z
+5c338020-82c6-4a2d-a743-6b691cbdbe05,Manuel Monteiro,manuel@oakslab.com,member,2026-06-04T08:43:29.962Z,2026-05-19T12:25:54.738Z
+cf89b94e-dbff-49c2-9327-f3b8ba0f27c6,Mariia Boiko,mariia@oakslab.com,member,2026-06-04T09:43:26.974Z,2026-05-22T12:26:00.430Z
+c25a06d3-11e1-4f0f-a6b3-d399d571c376,Markéta Březovská,marketa@oakslab.com,member,2026-06-03T13:55:48.011Z,2026-06-01T13:48:36.490Z
+a814b154-a64b-47b9-b9d6-925d1c3d7774,Martin Klikar,martin.klikar@oakslab.com,member,2026-06-03T08:06:54.420Z,2026-05-20T08:27:16.993Z
+23717166-94f6-4281-a72c-8d1be60994c3,Martin Kössler (keslo),martin.kossler@oakslab.com,member,2026-06-01T15:06:24.723Z,2026-06-01T15:06:24.691Z
+1eebff7b-5e61-452a-a90a-98377d6b3a79,Matej Novak,matej@oakslab.com,member,2026-06-03T15:38:50.878Z,2026-05-20T12:17:53.215Z
+3ed6172e-10a0-4165-9760-916cef3fa662,Mert Canatan,mert@oakslab.com,member,2026-05-20T11:50:28.461Z,2026-05-20T11:50:28.411Z
+b8bd158f-14c7-4f2a-9638-f20b69a2199d,Michaela Mlynarcikova,michaela@oakslab.com,member,2026-06-04T09:17:58.167Z,2026-05-22T13:01:48.799Z
+db364c2c-7c0f-4dbd-a80a-bfe3500dd107,Michal Strapaty,michal.strapaty@oakslab.com,member,2026-06-04T14:35:02.133Z,2026-05-27T08:30:44.671Z
+2ab60955-7b41-4875-b527-49d68954cf80,Miroslav Paulík,miroslav.paulik@oakslab.com,member,2026-06-01T13:45:02.067Z,2026-06-01T12:41:56.545Z
+a06f612f-3612-42bf-8acb-a4237edf5264,Muhammad Motala,muhammad@oakslab.com,member,2026-06-04T12:01:40.102Z,2026-05-19T12:59:07.949Z
+215eee97-a249-48ed-b9bf-b53e10680639,Oksana Verkholiak,oksana@oakslab.com,member,2026-06-01T14:22:35.190Z,2026-06-01T14:15:53.645Z
+f0bcecd0-7c27-49fe-aa6f-0379542675e7,Omercan Balandi,omercan@oakslab.com,member,2026-06-01T16:56:07.301Z,2026-06-01T16:56:07.267Z
+91f6d3ba-0790-4ff3-be22-feec15e6f46c,Ruslan Purii,ruslan@oakslab.com,member,2026-06-01T14:35:20.684Z,2026-06-01T14:21:05.769Z
+65e27481-dbe9-4d67-9e54-4701d0a49c0f,Sean Smyth,sean@oakslab.com,member,2026-06-04T08:52:53.063Z,2026-06-01T14:53:29.005Z
+6362ea4a-7893-4fb6-93a8-0ff93d6dca57,Stefan Mitrić,stefan@oakslab.com,member,2026-06-04T14:16:00.159Z,2026-06-01T14:04:04.917Z
+0106567b-0aeb-4252-8c19-2d896d6cba6e,Tamas Hajdu,tamas@oakslab.com,member,2026-06-01T14:35:27.014Z,2026-06-01T14:11:35.590Z
+e04f418b-40b4-4875-a6ca-63ee04f67097,Thanos Makaronas,thanos@oakslab.com,member,2026-06-01T14:11:04.498Z,2026-06-01T14:11:04.466Z
+8a07ae49-e8c1-404a-9eb9-62d4a4420527,Tijana Mitanoski,tijana@oakslab.com,member,2026-06-02T12:48:38.166Z,2026-06-02T12:48:38.127Z
+5d3d1768-f977-4e4a-a06c-008fb4e66c42,Tonda Kmoch,tonda@oakslab.com,admin,2026-06-04T14:47:12.020Z,2026-05-15T10:38:55.893Z
+4ad650e0-83fe-4a82-af92-b28765202a65,Tugrul Gencoglu,tugrul@oakslab.com,member,2026-05-26T13:10:55.920Z,2026-05-19T12:29:04.280Z
+a2b7b731-5744-479d-af90-b670d38dbd37,Tuncay Çakmanus,tuncay@oakslab.com,member,2026-06-01T14:04:27.445Z,2026-06-01T14:04:27.415Z
+a8d74306-47b4-4654-9e1c-dac632fdf76f,Viktor Goliaš,viktor@oakslab.com,member,2026-06-01T14:07:09.946Z,2026-06-01T14:07:09.912Z
+0886b5d7-376c-4248-8c66-b5a667e7ca63,Vilem Hujnak,vilem@oakslab.com,member,2026-06-04T14:46:01.264Z,2026-05-19T12:18:45.184Z
