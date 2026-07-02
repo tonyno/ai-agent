@@ -1,0 +1,21 @@
+This folder is intended to help me with my role as a Head of Delivery in Oaks Lab. I want to dump on you a few initial pieces of information, and based on that I want you to update the CLAUDE.md file so you will be able to assist me in my work as a Head of Delivery in our company. 
+
+I am part of DMT team, starting point is here: https://outline.oakslab.com/doc/playbook-tfce68p3cQ
+Read it carefully, and list all essential documents in CLAUDE.md file, so you have great context what we are doing and how we work
+
+Another essential document is this: https://outline.oakslab.com/doc/people-registry-slack-map-ZZT2ZVSnJb . Read it, understand that and put it to CLAUDE.md
+
+We work on projects listed here: https://outline.oakslab.com/collection/product-syncs-RIjdenzKfV/recent . Where in every project hub we have info about status, risks, tasks. Again, read it and make sure you are aware of those info.
+
+Us as DMT we take transcripts of all meetings and they land here: https://outline.oakslab.com/doc/meeting-transcripts-tdeWJ9lwvN
+For whatever activity we will be discussing, it's essential for you to have the context and understand what we were discussing recently. This is your starting point for the discussions about the DMT, and you always need to go to the past meetings to understand what was discussed, what was the context, what were the suggestions, and so on. 
+
+As DMT member I spend majority of the time supporting projects, every project has their own place for transcripts.
+For example for LearningSpring we have it here: https://outline.oakslab.com/doc/meetings-vx9FymfYee
+
+The full record of all the meetings I was invited to and/or my script for processing meetings processed is here: https://outline.oakslab.com/doc/meeting-transcript-list-Tk8zugBbdr
+
+So yeah, all the information about everything that we are doing, we are putting in the outline I gave you so far. The essential links to the essential information, I want you to process, read, understand, and understand the consequences and the way we work. I want you to think about what of that information we should put in your CLAUDE.md file so it does not get outdated whenever we update anything in the outline, because obviously the outline is a living document space and it is changing.
+
+You just need to think about what to put there and so on. The reason why we are doing this and why I want you to update that CLAUDE.md file is that I want you to be my assistant and my second brain and help me with the task that I am assigned as a part of the DMT team or also as a part of working on the project. For this, it is really essential that you understand the last transcripts and all the previous discussions and also the way we work, so based on that you can put stuff together. 
+
