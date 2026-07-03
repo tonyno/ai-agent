@@ -19,3 +19,37 @@ So yeah, all the information about everything that we are doing, we are putting 
 
 You just need to think about what to put there and so on. The reason why we are doing this and why I want you to update that CLAUDE.md file is that I want you to be my assistant and my second brain and help me with the task that I am assigned as a part of the DMT team or also as a part of working on the project. For this, it is really essential that you understand the last transcripts and all the previous discussions and also the way we work, so based on that you can put stuff together. 
 
+-----
+
+A lot of stuff this year is affected by this: https://outline.oakslab.com/doc/ai-delivery-strategy-for-h2-2026-xB5tzeyWff
+
+Also Andy shared this note: Hey @here I'm currently taking a look at Software Factory by 80/90, it's Chamath's new company that just raised $125M
+
+I'm mainly sharing to show you how they set up the context and workflow, as I imagine this is heavily based on user research and trial/error so something we can take into account. It's absolutely not rocket science, but sharing the structure in images below.
+
+It's extremely similar to how we likely are moving to operate (if you imagine it as a layer on top of Outline, Linear, Claude etc). It's obviously not perfect, but I believe there is something that we can learn from it as we set up our approach to context on LearningSpring and other projects (cc @tonda, @matej, @denisa)
+
+I will give you screenshots of that tool. Just read it for now. No next steps. I will explain you in second what I need.
+
+-----
+
+If you go through the last DMT transcripts, you would see that actually we had some discussions where Andy wants me to document the way we use the AI on a project like Learning Spring. He was almost like explaining this as some AI manifesto that will help to document how we are working on projects like Learning Spring. Please go through his stories, through this conversation, and try to catch from that what exactly Andy means and what exactly he wants to build. Also, be inspired by that Slack message that I shared with you earlier. 
+
+That draft manifesto I want you to put to this folder: https://outline.oakslab.com/doc/tonda-dmt-iGG9sdSvpd
+
+I know it's challenging to come up with something, because I didn't give you any instructions or any sort of anything, so you don't have the requirements. I want you to think how a company like us can brutally speed up the development and shift our roles of our people more to the left.
+
+By shifting to the left, I mean that all the people will work more closely with the business and will focus more on what we are building and why we are building that, instead of how exactly or doing that technical part, because the technical part can be done by AI.
+
+I just need you to read or understand all the recent discussions within the last three weeks, understand all the context and everything, understand what we are doing, what our clients are, how to serve them, and so on. Based on that, you can come up with some suggestions that we will then work together on moving forward. 
+
+One of my thoughts from my side is that, when we know what needs to be built, that is becoming the commodity, and anyone can do that. Also, creating some prototype and so on is helping dramatically in aligning on the scope.
+What I was thinking about is that we have the following: let's assume that we started some project, and we have some initial scope that we need to work on from the BD process. I think that, based on that, we should generate the set of questions and also an initial prototype as a backup or the stuff for helping with those discussions. I believe that, for those questions, we should propose some answers or some suggestions, and we should be able to back that up with some designs from the prototype. We might iterate with the clients through that super quickly.
+We will be probably in some certain steps, building that which needs to be built and that which is kind of captured through the transcripts from the meeting. We don't need to do everything manually, but based on all those meetings we automatically regenerate that prototype and also generate that specification.
+The sequence should be that there is always the specification first, because only based on that specification we can generate some prototype. We are iterating through this super quickly, with every day having a new version of the specification, a new version of the prototype, and so on. That prototype is focusing mainly on:
+- what's the behavior
+- what's the flow
+- what are the fields on the screen
+- how the application works
+For that, clicks somehow the cloud design application in the moment when we are moving to high-fidelity designs, and really what will be exactly the copy, what will be exactly the communication, what will be those components. We need to think if we will just use cloud design or we will use maybe some lovable prototype or cloth-generated prototype.
+When it comes to the development, it should be almost generated instantly. I know that I am just guessing, or I think I understand this is not helpful, so please, based on this everything that we discussed, try to understand what I am trying to achieve and use your best skills and your best ability to come up with some specific proposal for projects like learning spring how to do everything. Put it as an outline page for me, please.
