@@ -53,3 +53,47 @@ The sequence should be that there is always the specification first, because onl
 - how the application works
 For that, clicks somehow the cloud design application in the moment when we are moving to high-fidelity designs, and really what will be exactly the copy, what will be exactly the communication, what will be those components. We need to think if we will just use cloud design or we will use maybe some lovable prototype or cloth-generated prototype.
 When it comes to the development, it should be almost generated instantly. I know that I am just guessing, or I think I understand this is not helpful, so please, based on this everything that we discussed, try to understand what I am trying to achieve and use your best skills and your best ability to come up with some specific proposal for projects like learning spring how to do everything. Put it as an outline page for me, please.
+
+
+-----
+
+From CEO we received this instruction for building H2 strategy:
+
+@channel thanks for the meeting earlier. I’m super excited about what you come up with for the focus of your departments for H2.
+
+To make it easier, I’ve migrated everything from Google Drive to Outline.
+
+I’ve created a new collection called Department Heads, and added you all there. I then created the Company Strategy Doc which includes our longterm strategy as well as the past summary presentations. I then also created a sub-document for H2 2026 Strategy Brief, including all your sub-document templates for your Strategy Briefs for H2. So please fill in your strategy briefs directly in the document there.
+
+During our next meeting on July 13th, you will just open up your Outline document and walk the group through your Strategy Brief for H2.
+
+Let me know if you have any questions. :slightly_smiling_face:
+
+The H2 mantra is:
+close deals, 
+deliver projects, 
+skate to the puck on AI, 
+and clean the house for 20% growth in 2027.
+
+H2 strategy brief lives here: https://outline.oakslab.com/doc/h2-2026-strategy-brief-81IJVkGmgS and its subfolders.
+
+Presentation from H2 brief is here: https://docs.google.com/presentation/d/13llhiGaOq8lRo1nd50878dNim0NEkZCCJcwclYppHXE/edit?slide=id.p#slide=id.p
+
+Delivery Strategy Brief for previous H1 2026 is here: https://docs.google.com/document/d/1g0v3nSQKbBcGHkZO3SOR0Brdp9PbSUHfZfFEJgnImFo/edit?tab=t.0
+
+I want you to help me formulate the Strategy Brief for Delivery department for H2 2026 ... with alignment to H2 company strategy/brief.
+Put the suggested Delivery Department Brief here to this folder: https://outline.oakslab.com/collection/dmt-luEGhTE3lw/recent
+
+Example of outputs for other departments from my collegues:
+- engineering: https://docs.google.com/document/d/1k-vdv_YH4mzssR92EKlTyScJvHml85clxVGy6HiJJyk/edit?tab=t.0
+- design strategy (already correctly in outline): https://outline.oakslab.com/doc/design-oaks-lab-strategy-brief-h2-2026-xLAkrdgnMp
+
+All the strategy for H2 of DMT team is led by this vision from Andy: https://outline.oakslab.com/doc/ai-delivery-strategy-for-h2-2026-xB5tzeyWff
+
+Specific actions lives here: https://outline.oakslab.com/doc/ai-delivery-actions-h2-2026-mNv0rPW3Wm and mainly in Linear here: https://linear.app/oakslab/team/DMT/active
+But those tickets are more what we see imediately, not longterm.
+
+One thing we put together already is this: https://outline.oakslab.com/doc/dmt-79-manifesto-v1-role-expectations-in-the-ai-era-aOyc9OTnap ... what is part of our strategy, as delivery is overseeing all disciplines product, design, engineering.
+
+
+I want you to go through all the materials above. Understand what the delivery department is doing and all the context and instructions from Andy and so on. Based on all your understanding, propose what should be the direction that we should be heading to fulfill the goals that are in the company-wide strategy for H2 this year and to be aligned with Andy's AI vision. Please propose here what might be that focus and what you would recommend we focus on as a delivery department to fulfill that vision and those needs and become a competitive advantage on the market. 
